@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@monorepo/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@monorepo/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@monorepo/ui": ["libs/ui/src/index.ts"],
+      "@monorepo/utils": ["libs/utils/src/index.ts"],
+      "@monorepo/webpage/curriculum": ["libs/webpage/curriculum/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
